@@ -36,7 +36,7 @@ void setup()
   Serial.begin(115200);
   Serial.println("Edge Impulse Inferencing Demo");
 
-  while (!Serial);
+  //while (!Serial);
 
   pinMode(LED_BUILTIN, OUTPUT); // initialize the built-in LED pin to indicate when a central is connected
 
